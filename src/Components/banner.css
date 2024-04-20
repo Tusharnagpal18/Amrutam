@@ -1,0 +1,11 @@
+.bannerdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: orange; */
+}
+.bannerul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}

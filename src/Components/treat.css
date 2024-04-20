@@ -1,0 +1,7 @@
+div > button{
+    background-color: #E4E7EA;
+    margin:5px;
+    padding: 3px;
+    text-align: left;
+    border-radius: 0.5rem;
+}
