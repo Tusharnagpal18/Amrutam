@@ -1,6 +1,9 @@
 import {useState} from 'react'
 const Reviews = () => {
     const [Reviewscount , ReviewsSetCount ]= useState(120);
+    ReviewsSetCount ()
+    
+    
   return (
     <>
         <div>
