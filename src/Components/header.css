@@ -1,0 +1,20 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    align-items: center;
+}
+.myul{
+    display: flex;
+    text-decoration: none;
+    list-style-type:none;
+    gap: 40px;
+}
+.mybtn button{
+    margin: 5px;
+    padding: 5px;
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}

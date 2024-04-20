@@ -1,26 +1,22 @@
-
+import "./header.css";
 function Headers() {
   return (
-    <div className='Header'>
-        <div>
-          Amrutam
-        </div>
+    <div className="Header">
+      <div className="title">AMRUTAM</div>
 
-        <div>
-        <ul>
-            <li>Home</li>
-            <li>Find Doctors</li>
-            <li>About US</li>
+      <div>
+        <ul className="myul">
+          <li>Home</li>
+          <li>Find Doctors</li>
+          <li>About US</li>
         </ul>
-
-        </div>
-        <div>
+      </div>
+      <div className="mybtn">
         <button>login</button>
-        <button>Sign UP</button>
-
-        </div>
+        <button>Sign up</button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Headers
+export default Headers;
